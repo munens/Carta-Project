@@ -1,0 +1,4 @@
+Release Notes
+
+3.8.0  30 March 2012
+   Pre-release

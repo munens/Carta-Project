@@ -1,0 +1,206 @@
+/** Add css rules here for your application. */
+/** Example rules used by the template application (remove for your app) */
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #777777;
+	margin: 40px 0px 70px;
+	text-align: right;
+}
+
+.skipLogin {
+	display: block;
+	font-size: 16pt;
+}
+
+.sendButton {
+	display: block;
+	font-size: 16pt;
+}
+
+.wrapperHeader {
+	width: 100%;
+	height: 100%;
+	float: right;
+	background: url(images/carta_logo.png);
+	text-align: right;
+}
+
+.loginpanel {
+	align: center;
+}
+
+#hm-map {
+	margin: 10px;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+	width: 400px;
+}
+
+.dialogVPanel {
+	margin: 5px;
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+	margin: 15px 6px 6px;
+}
+
+.adminLogger {
+	width: 200px;
+	height: 1000px;
+}
+
+
+
+.FlexTable {
+  border-top: thin solid #444444;
+  border-left: thin solid #444444;
+  border-right: thin solid #111111;
+  border-bottom: thin solid #111111;
+  background-color:  #505050;
+}
+
+.FlexTable-OddRow {
+  background-color: #cccccc;
+}
+
+.FlexTable-EvenRow {
+  background-color:  #505050;
+}
+
+
+.FlexTable-ColumnLabel {
+  color: white;
+  padding: 3px;
+}
+
+.FlexTable-ColumnLabelCell {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.FlexTable-Cell {
+  border-width: 0px 0px 0px 1px;
+  border-style: solid;
+  border-color: white;
+  padding: 5px;
+}
+
+/* http://www.colourlovers.com/palette/92095/Giant_Goldfish */
+.artworksTable-oddRow {
+  background-color: #D5DED9;	
+}
+
+.artworksTable-evenRow {
+  background-color: #C5E0DC;	
+}
+
+
+.rowEven {
+	/* from gwt DataGrid */
+	background-color: #F3F7FB;
+}
+
+.rowOdd {
+	/* from gwt DataGrid */
+	background-color: #FFFFFF
+}
+
+.rowHover {
+	/* from gwt DataGrid */
+	background-color: #EEEEEE;
+}
+
+.rowSelect {
+	/* from gwt DataGrid */
+	background-color: #FFFFCC;
+}
+
+.artworksTable {
+	/* http://sassotools.blogspot.ca/2011/09/grid-borders-in-gwt.html*/
+	border-collapse: collapse;
+	background-color: #F0F2EB;
+}
+
+.artworksTable-Cell {
+  border-style: none;
+}
+
+.upvoteImageUnpressed {
+	background-image: url(images/up-arrow.png);
+	height: 50px;
+	width: 50px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.downvoteImageUnressed {
+	background-image: url(images/down-arrow.png);
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.upvoteImagePressed {
+	background-image: url(images/up-arrow-pressed.png);
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.downvoteImagePressed {
+	background-image: url(images/down-arrow-pressed.png);
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.clearButton {
+	background-color: transparent;
+	/*outline-style: none;*/
+	outline-color: invert;
+
+}
+
+.voteLabel {
+	text-align: center;
+}
+
+.voteButton {
+	gwt-Image: url("images/up-arrow.png");
+	height: 25px;
+	width: 25px;
+}
+
+/* http://devtacular.com/articles/bkonrad/how-to-remove-chromes-orange-outline/ */
+*:focus  
+{  
+    outline: none;  
+}
+
+.sortableLabelAscending {
+	background-color: #D3E4C5;
+}
+
+.sortableLabelDescending {
+	background-color: #FFD8D8;
+}
+
+.logger {
+	width: 400px;
+	height: 300px;
+}
